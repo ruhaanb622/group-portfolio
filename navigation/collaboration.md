@@ -20,8 +20,9 @@ with links that show planning, ownership, implementation, testing, and reflectio
 
 ### Agile evidence
 
-- **Big Issue:** To be linked after the project direction is approved.
-- **Sub Issues:** [Repository issues](https://github.com/ruhaanb622/group-portfolio/issues)
+- **Workspace Big Issue:** [Prepare the shared team portfolio for collaboration](https://github.com/ruhaanb622/group-portfolio/issues/1)
+- **Setup Sub Issues:** [Issues #2–#7](https://github.com/ruhaanb622/group-portfolio/issues)
+- **Project Big Issue:** To be created only after the project direction is approved.
 - **Kanban board:** To be linked after the three-column board is created.
 - **Pull requests:** [Repository pull requests](https://github.com/ruhaanb622/group-portfolio/pulls)
 
