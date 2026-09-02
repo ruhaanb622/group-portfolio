@@ -7,33 +7,39 @@ comments: true
 
 ## Collaboration History
 
-This page is the team's evidence index. It will be updated throughout the sprint
-with links that show planning, ownership, implementation, testing, and reflection.
+This page is the team's evidence index. It will be updated throughout the year
+with links that show planning, ownership, ideation, implementation, testing, and
+reflection.
 
 ### Team role evidence
 
-| Member | Role | Active issue | Completed evidence |
+| Member | Role | Current setup issue | First ideation issues |
 |---|---|---|---|
-| Ruhaan Bansal | Scrum Master / Developer | To be linked | To be linked |
-| Arya Taghavi Zargar | Technologist / Developer | To be linked | To be linked |
-| Deyar Raissadat | Technologist / Developer | To be linked | To be linked |
+| Ruhaan Bansal | Scrum Master / Developer | [#3 Create the Kanban board](https://github.com/ruhaanb622/group-portfolio/issues/3) | [#9 Spec Compass](https://github.com/ruhaanb622/group-portfolio/issues/9), then [#12 Recertification timeline](https://github.com/ruhaanb622/group-portfolio/issues/12) |
+| Arya Taghavi Zargar | Technologist / Developer | [#4 Review team information](https://github.com/ruhaanb622/group-portfolio/issues/4) | [#10 QR Participation Checker](https://github.com/ruhaanb622/group-portfolio/issues/10), then [#13 Manufacturer portal](https://github.com/ruhaanb622/group-portfolio/issues/13) |
+| Deyar Raissadat | Technologist / Developer | [#6 Audit formatting and accessibility](https://github.com/ruhaanb622/group-portfolio/issues/6) | [#11 Trackside Inspector Mode](https://github.com/ruhaanb622/group-portfolio/issues/11), then [#14 Learning hub](https://github.com/ruhaanb622/group-portfolio/issues/14) |
 
 ### Agile evidence
 
-- **Workspace Big Issue:** [Prepare the shared team portfolio for collaboration](https://github.com/ruhaanb622/group-portfolio/issues/1)
-- **Setup Sub Issues:** [Issues #2–#7](https://github.com/ruhaanb622/group-portfolio/issues)
-- **Project Big Issue:** To be created only after the project direction is approved.
-- **Kanban board:** To be linked after the three-column board is created.
+- **Workspace Big Issue:** [#1 Prepare the shared team portfolio](https://github.com/ruhaanb622/group-portfolio/issues/1)
+- **Setup Sub Issues:** [#2–#7](https://github.com/ruhaanb622/group-portfolio/issues)
+- **Ideation tracker:** [#8 Compare six SFI modernization directions](https://github.com/ruhaanb622/group-portfolio/issues/8)
+- **Independent idea issues:** [#9](https://github.com/ruhaanb622/group-portfolio/issues/9), [#10](https://github.com/ruhaanb622/group-portfolio/issues/10), [#11](https://github.com/ruhaanb622/group-portfolio/issues/11), [#12](https://github.com/ruhaanb622/group-portfolio/issues/12), [#13](https://github.com/ruhaanb622/group-portfolio/issues/13), and [#14](https://github.com/ruhaanb622/group-portfolio/issues/14)
+- **Kanban board:** Follow the exact setup and starting positions in [issue #3](https://github.com/ruhaanb622/group-portfolio/issues/3). Replace this sentence with the board link after it is created.
 - **Pull requests:** [Repository pull requests](https://github.com/ruhaanb622/group-portfolio/pulls)
+
+A product Big Issue will be created only after the team compares the six ideas
+and agrees on a direction.
 
 ### Artifact history
 
 | Phase | Artifact | Evidence link | Status |
 |---|---|---|---|
-| Idea | Team-approved direction and problem statement | To be linked | Not started |
-| Prototype | Wireframe, storyboard, or mockup | To be linked | Not started |
-| Implementation | Code and pull request | To be linked | Not started |
-| Test / demo | Test notes and working demonstration | To be linked | Not started |
+| Selection | Confirmed nonprofit organization | [SFI Foundation capstone](https://pages.opencodingsociety.com/capstone/greppers/) | Complete |
+| Ideation | Six independent storyboard directions | [2026–2027 SFI ideation](../sfi-ideation/) | In progress |
+| Prototype | Wireframe, storyboard refinement, or mockup | To be linked after selection | Not started |
+| Implementation | Code and pull request | To be linked after ideation | Not started |
+| Test / demo | Test notes and working demonstration | To be linked after implementation | Not started |
 
 ### Blockers and resolutions
 
@@ -43,26 +49,30 @@ with links that show planning, ownership, implementation, testing, and reflectio
 
 ## Function and Purpose
 
-Complete this section after the team approves a project direction.
+**Confirmed organization:** SFI Foundation.
 
-**User and purpose:** To be written as one sentence identifying the user and the
-problem the program solves.
+**Current purpose:** Explore six possible ways to make motorsports safety
+specification information easier to find, understand, or verify while preserving
+accuracy and avoiding unsupported certification claims.
 
-### Key user actions
+The exact user, problem statement, and primary function remain undecided. They
+will be written only after the team discusses the six ideas and talks with the
+previous Greppers team.
 
-| User action | Expected output |
-|---|---|
-| 1. To be defined | To be defined |
-| 2. To be defined | To be defined |
-| 3. To be defined | To be defined |
+### Candidate user actions
+
+| Candidate action | Possible output | Status |
+|---|---|---|
+| Search using plain language | Relevant specification results with traceable sources | Idea only |
+| Scan or enter a product/manufacturer identifier | Participation and reference information with clear limitations | Idea only |
+| Review a mobile inspection or recertification flow | Checklist, timeline, or next-step guidance | Idea only |
 
 ### Individual logic contributions
 
-Each member will link an algorithmic or logic-based contribution, the code that
-implements it, and a test or demo confirming its expected behavior.
+Logic contributions, code, and tests are intentionally blank during ideation.
 
 | Member | Logic contribution | Code | Test / demo |
 |---|---|---|---|
-| Ruhaan Bansal | To be defined | To be linked | To be linked |
-| Arya Taghavi Zargar | To be defined | To be linked | To be linked |
-| Deyar Raissadat | To be defined | To be linked | To be linked |
+| Ruhaan Bansal | To be defined after selection | Not started | Not started |
+| Arya Taghavi Zargar | To be defined after selection | Not started | Not started |
+| Deyar Raissadat | To be defined after selection | Not started | Not started |

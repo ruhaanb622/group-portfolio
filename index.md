@@ -120,15 +120,16 @@ show_reading_time: false
 
 <div class="team-home">
   <section class="team-hero">
-    <p class="team-eyebrow">AP CSP · Shared Workspace</p>
-    <h1>Three developers, one documented process.</h1>
+    <p class="team-eyebrow">AP CSP · 2026–2027</p>
+    <h1>Modernizing access to motorsports safety information.</h1>
     <p class="team-lede">
-      This portfolio records our planning, collaboration, implementation evidence,
-      testing, and reflections. Project direction will be added only after the team
-      has reviewed and approved it.
+      Our team is confirmed for the SFI Foundation capstone. We are comparing six
+      independent directions through research, storyboards, and discussion. We have
+      not selected a feature or begun product implementation.
     </p>
     <div class="team-actions">
-      <a class="team-button primary" href="{{ '/about/' | relative_url }}">Meet the team</a>
+      <a class="team-button primary" href="{{ '/sfi-ideation/' | relative_url }}">Explore six ideas</a>
+      <a class="team-button" href="{{ '/about/' | relative_url }}">Meet the team</a>
       <a class="team-button" href="{{ '/collaboration/' | relative_url }}">Collaboration history</a>
       <a class="team-button" href="https://github.com/ruhaanb622/group-portfolio">GitHub repository</a>
     </div>
@@ -159,19 +160,19 @@ show_reading_time: false
   <h2>Workspace status</h2>
   <div class="status-grid">
     <article class="status-card">
-      <p class="status-label">Repository</p>
-      <h3>Foundation ready</h3>
-      <p>Team details, navigation, contribution guidance, and evidence pages are in place.</p>
+      <p class="status-label">Organization</p>
+      <h3>SFI Foundation confirmed</h3>
+      <p>The team will explore ways to improve access to motorsports safety information.</p>
     </article>
     <article class="status-card">
-      <p class="status-label">Project direction</p>
-      <h3>Not selected</h3>
-      <p>No product or inherited-project work is represented in this setup.</p>
+      <p class="status-label">Current phase</p>
+      <h3>Ideation only</h3>
+      <p>Six directions are under discussion. No feature has been selected or built.</p>
     </article>
     <article class="status-card">
       <p class="status-label">Evidence</p>
-      <h3>Ready to record</h3>
-      <p>The collaboration page is prepared for issues, artifacts, tests, and reflections.</p>
+      <h3>Issues + storyboards</h3>
+      <p>Each direction has an owner, discussion issue, questions, and storyboard outline.</p>
     </article>
   </div>
 
@@ -180,6 +181,6 @@ show_reading_time: false
     <li>Every issue has one clear owner and one verifiable done condition.</li>
     <li>Each member keeps no more than one card in <strong>Doing</strong>.</li>
     <li>Blocked work is labeled and includes a comment explaining the blocker.</li>
-    <li>Implementation changes use a branch and pull request before merging.</li>
+    <li>Research and ideation come before feature selection or implementation.</li>
   </ul>
 </div>

@@ -18,6 +18,7 @@ minima:
     - { platform: github, user_url: "https://github.com/ruhaanb622/group-portfolio" }
   nav_pages:
     - navigation/about.md
+    - navigation/sfi-ideation.md
     - navigation/collaboration.md
     - navigation/blog.md
     - navigation/search.md

@@ -25,6 +25,7 @@ stand-ups, issue ownership, and integration without becoming the sole contributo
 5. Blocked work receives a **Blocked** label and an explanatory comment.
 6. Code changes are connected to an issue and reviewed through a pull request.
 7. Members update or comment on their active card during each team check-in.
+8. During ideation, the team researches and discusses ideas without implementing a product.
 
 ## Definition of done
 
@@ -32,14 +33,16 @@ A task is complete when:
 
 - its stated deliverable exists;
 - its acceptance checklist is satisfied;
-- relevant links, screenshots, code, or tests are attached;
+- relevant links, screenshots, notes, or tests are attached;
 - another team member can reproduce or review the result; and
 - the issue is moved to **Done**.
 
 ## Decision log
 
-Major team decisions will be recorded here after approval.
-
 | Date | Decision | Reason | Approved by |
 |---|---|---|---|
-| — | No project direction selected | Repository setup only | Team review pending |
+| Sept. 2, 2026 | SFI Foundation selected | Confirmed 2026–2027 nonprofit capstone assignment | Team |
+| Pending | Feature direction not selected | Six independent ideas must be discussed first | Team review pending |
+
+Selection of the organization does not mean that a product direction has been
+chosen. Current work is limited to research, storyboards, and team discussion.
