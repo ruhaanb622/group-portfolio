@@ -25,6 +25,7 @@ reflection.
 - **Setup Sub Issues:** [#2–#7](https://github.com/ruhaanb622/group-portfolio/issues)
 - **Ideation tracker:** [#8 Compare six SFI modernization directions](https://github.com/ruhaanb622/group-portfolio/issues/8)
 - **Independent idea issues:** [#9](https://github.com/ruhaanb622/group-portfolio/issues/9), [#10](https://github.com/ruhaanb622/group-portfolio/issues/10), [#11](https://github.com/ruhaanb622/group-portfolio/issues/11), [#12](https://github.com/ruhaanb622/group-portfolio/issues/12), [#13](https://github.com/ruhaanb622/group-portfolio/issues/13), and [#14](https://github.com/ruhaanb622/group-portfolio/issues/14)
+- **Previous-team discussion:** [#15 Discuss the inherited Greppers prototype](https://github.com/ruhaanb622/group-portfolio/issues/15)
 - **Kanban board:** Follow the exact setup and starting positions in [issue #3](https://github.com/ruhaanb622/group-portfolio/issues/3). Replace this sentence with the board link after it is created.
 - **Pull requests:** [Repository pull requests](https://github.com/ruhaanb622/group-portfolio/pulls)
 

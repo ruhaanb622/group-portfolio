@@ -430,7 +430,7 @@ show_reading_time: false
       <h2>Questions for the previous Greppers team</h2>
       <p>
         Before narrowing the six ideas, we plan to talk with the creators of the
-        previous page and prototype. Contact has not yet been recorded.
+        previous page and prototype. Contact has not yet been recorded; the task and evidence checklist are tracked in <a href="https://github.com/ruhaanb622/group-portfolio/issues/15">issue #15</a>.
       </p>
     </div>
     <div class="sfi-grid">
@@ -453,7 +453,7 @@ show_reading_time: false
     </div>
     <p class="sfi-footer-note">
       Starting references: <a href="https://pages.opencodingsociety.com/capstone/greppers/">current Greppers capstone page</a>
-      and <a href="https://github.com/TheGreppers/greppers/issues/23">previous-team handoff issue</a>.
+      and <a href="https://github.com/TheGreppers/greppers/issues/23">previous-team handoff issue</a>. Follow-up notes will be recorded in <a href="https://github.com/ruhaanb622/group-portfolio/issues/15">our discussion issue #15</a>.
       We will ask before reusing code or assets and preserve attribution.
     </p>
   </section>
