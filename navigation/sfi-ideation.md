@@ -367,7 +367,7 @@ show_reading_time: false
         <h4>Guiding question</h4>
         <p>Can reliable date rules be sourced consistently enough to support reminders without giving unsafe advice?</p>
         <p><strong>Data question:</strong> Determine which schedules are public, stable, and appropriate for a non-authoritative reminder tool.</p>
-        <a class="sfi-link" href="https://github.com/ruhaanb622/group-portfolio/issues/12">Discuss in issue #12 →</a>
+        <a class="sfi-link" href="https://github.com/ruhaanb622/group-portfolio/issues/9">Discuss both Ruhaan ideas in issue #9 →</a>
       </article>
 
       <article class="sfi-card">
@@ -387,7 +387,7 @@ show_reading_time: false
         <h4>Guiding question</h4>
         <p>What real workflow exists today, and would a student-built prototype address a meaningful bottleneck?</p>
         <p><strong>Scope risk:</strong> Authentication, private documents, permissions, and retention policies may make this direction too broad.</p>
-        <a class="sfi-link" href="https://github.com/ruhaanb622/group-portfolio/issues/13">Discuss in issue #13 →</a>
+        <a class="sfi-link" href="https://github.com/ruhaanb622/group-portfolio/issues/10">Discuss both Arya ideas in issue #10 →</a>
       </article>
 
       <article class="sfi-card">
@@ -407,7 +407,7 @@ show_reading_time: false
         <h4>Guiding question</h4>
         <p>Which misconceptions create the most risk for beginners, and how should SFI review educational wording?</p>
         <p><strong>Difference to investigate:</strong> Structured learning outcomes and scenario feedback rather than a general information page.</p>
-        <a class="sfi-link" href="https://github.com/ruhaanb622/group-portfolio/issues/14">Discuss in issue #14 →</a>
+        <a class="sfi-link" href="https://github.com/ruhaanb622/group-portfolio/issues/11">Discuss both Deyar ideas in issue #11 →</a>
       </article>
     </div>
   </section>
