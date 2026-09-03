@@ -1,94 +1,179 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
-  <title id="title">Mobile Trackside Inspector Mode storyboard</title>
-  <desc id="desc">Six panels show a vehicle arriving, choosing a lookup method, scanning a label, viewing a quick reference, opening the official source, and holding uncertain equipment for manual review.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="900" viewBox="0 0 1280 900" role="img" aria-labelledby="title desc">
+  <title id="title">Mobile Trackside Inspector Mode visual storyboard</title>
+  <desc id="desc">Six evenly spaced cards show a trackside inspector receiving a vehicle, choosing a lookup, scanning and confirming a safety label, viewing a quick reference, opening the official source, and sending an uncertain result to manual review.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#111827"/>
-      <stop offset="1" stop-color="#1f2937"/>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#253249"/>
     </linearGradient>
-    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
-      <feDropShadow dx="0" dy="7" stdDeviation="7" flood-color="#000000" flood-opacity=".25"/>
+    <linearGradient id="redCar" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fb7185"/>
+      <stop offset="1" stop-color="#dc2626"/>
+    </linearGradient>
+    <linearGradient id="phoneScreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <pattern id="checkers" width="38" height="38" patternUnits="userSpaceOnUse">
+      <rect width="19" height="19" fill="#ffffff"/>
+      <rect x="19" y="19" width="19" height="19" fill="#ffffff"/>
+    </pattern>
+    <filter id="cardShadow" x="-15%" y="-15%" width="130%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="9" flood-color="#000000" flood-opacity=".28"/>
+    </filter>
+    <filter id="smallShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#0f172a" flood-opacity=".22"/>
     </filter>
   </defs>
-  <rect width="1200" height="760" rx="28" fill="url(#bg)"/>
-  <path d="M0 95h1200" stroke="#ef4444" stroke-width="7"/>
-  <g opacity=".13" fill="#ffffff">
-    <rect x="930" y="25" width="28" height="28"/><rect x="986" y="25" width="28" height="28"/>
-    <rect x="958" y="53" width="28" height="28"/><rect x="1014" y="53" width="28" height="28"/>
-    <rect x="1042" y="25" width="28" height="28"/><rect x="1098" y="25" width="28" height="28"/>
-    <rect x="1070" y="53" width="28" height="28"/><rect x="1126" y="53" width="28" height="28"/>
-  </g>
-  <text x="55" y="51" fill="#ffffff" font-family="Arial, sans-serif" font-size="29" font-weight="800">MOBILE TRACKSIDE INSPECTOR MODE</text>
-  <text x="55" y="81" fill="#fca5a5" font-family="Arial, sans-serif" font-size="18" font-weight="600">Find the official safety information fast — even in sun, noise, or weak internet.</text>
 
-  <g filter="url(#shadow)">
-    <rect x="45" y="130" width="350" height="260" rx="22" fill="#ffffff"/>
-    <rect x="425" y="130" width="350" height="260" rx="22" fill="#ffffff"/>
-    <rect x="805" y="130" width="350" height="260" rx="22" fill="#ffffff"/>
-    <rect x="45" y="425" width="350" height="260" rx="22" fill="#ffffff"/>
-    <rect x="425" y="425" width="350" height="260" rx="22" fill="#ffffff"/>
-    <rect x="805" y="425" width="350" height="260" rx="22" fill="#ffffff"/>
+  <rect width="1280" height="900" rx="30" fill="url(#background)"/>
+  <rect x="0" y="0" width="1280" height="112" rx="30" fill="#111827"/>
+  <rect x="0" y="96" width="1280" height="16" fill="#ef4444"/>
+  <rect x="1020" y="15" width="230" height="76" opacity=".10" fill="url(#checkers)"/>
+  <text x="52" y="49" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="800">MOBILE TRACKSIDE INSPECTOR MODE</text>
+  <text x="52" y="80" fill="#fca5a5" font-family="Arial, sans-serif" font-size="17" font-weight="600">A 30-second path from safety label to official source</text>
+
+  <g filter="url(#cardShadow)">
+    <rect x="40" y="145" width="370" height="305" rx="22" fill="#ffffff" stroke="#dbe4f0" stroke-width="2"/>
+    <rect x="455" y="145" width="370" height="305" rx="22" fill="#ffffff" stroke="#dbe4f0" stroke-width="2"/>
+    <rect x="870" y="145" width="370" height="305" rx="22" fill="#ffffff" stroke="#dbe4f0" stroke-width="2"/>
+    <rect x="40" y="500" width="370" height="305" rx="22" fill="#ffffff" stroke="#dbe4f0" stroke-width="2"/>
+    <rect x="455" y="500" width="370" height="305" rx="22" fill="#ffffff" stroke="#dbe4f0" stroke-width="2"/>
+    <rect x="870" y="500" width="370" height="305" rx="22" fill="#ffffff" stroke="#dbe4f0" stroke-width="2"/>
   </g>
 
-  <!-- Panel 1 -->
-  <circle cx="78" cy="165" r="20" fill="#ef4444"/><text x="78" y="172" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="20" font-weight="800">1</text>
-  <circle cx="330" cy="175" r="30" fill="#fbbf24"/>
-  <g stroke="#f59e0b" stroke-width="4">
-    <path d="M330 132v-15M330 233v-15M287 175h-15M388 175h-15M300 145l-11-11M371 216l-11-11M360 145l11-11M289 216l11-11"/>
+  <!-- Card 1: vehicle arrives -->
+  <g>
+    <circle cx="76" cy="181" r="20" fill="#ef4444"/>
+    <text x="76" y="188" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="19" font-weight="800">1</text>
+    <rect x="105" y="162" width="128" height="36" rx="18" fill="#fee2e2"/>
+    <text x="169" y="185" text-anchor="middle" fill="#b91c1c" font-family="Arial, sans-serif" font-size="12" font-weight="800">GAIN ATTENTION</text>
+    <circle cx="345" cy="194" r="26" fill="#fbbf24"/>
+    <g stroke="#f59e0b" stroke-width="3" stroke-linecap="round">
+      <path d="M345 153v-11M345 246v-11M304 194h-11M397 194h-11M316 165l-8-8M382 231l-8-8M374 165l8-8M308 231l8-8"/>
+    </g>
+    <path d="M132 316h22l27-48h90l42 48h30c18 0 28 11 31 31H113c3-19 9-31 19-31z" fill="url(#redCar)" filter="url(#smallShadow)"/>
+    <path d="M192 279h68l30 37H166z" fill="#bfdbfe" stroke="#ffffff" stroke-width="3"/>
+    <path d="M120 334h244" stroke="#f8fafc" stroke-width="5" opacity=".8"/>
+    <circle cx="155" cy="349" r="25" fill="#172033"/><circle cx="155" cy="349" r="11" fill="#94a3b8"/>
+    <circle cx="327" cy="349" r="25" fill="#172033"/><circle cx="327" cy="349" r="11" fill="#94a3b8"/>
+    <circle cx="84" cy="267" r="12" fill="#f59e0b"/>
+    <path d="M84 279v38M84 293l-14 15M84 293l16 12" stroke="#334155" stroke-width="7" stroke-linecap="round"/>
+    <rect x="96" y="283" width="13" height="22" rx="3" fill="#111827" transform="rotate(-12 102 294)"/>
+    <text x="68" y="399" fill="#111827" font-family="Arial, sans-serif" font-size="21" font-weight="800">VEHICLE ARRIVES</text>
+    <text x="68" y="422" fill="#475569" font-family="Arial, sans-serif" font-size="14">The inspector needs the right</text>
+    <text x="68" y="441" fill="#475569" font-family="Arial, sans-serif" font-size="14">information fast.</text>
   </g>
-  <path d="M108 270h44l22-40h92l35 40h36c17 0 28 10 31 27H92c2-16 7-27 16-27z" fill="#ef4444"/>
-  <rect x="186" y="240" width="62" height="30" rx="8" fill="#bfdbfe"/>
-  <circle cx="145" cy="300" r="23" fill="#1f2937"/><circle cx="311" cy="300" r="23" fill="#1f2937"/>
-  <text x="78" y="345" fill="#111827" font-family="Arial" font-size="22" font-weight="800">VEHICLE ARRIVES</text>
-  <text x="78" y="373" fill="#4b5563" font-family="Arial" font-size="16">The inspector needs answers fast.</text>
 
-  <!-- Panel 2 -->
-  <circle cx="458" cy="165" r="20" fill="#ef4444"/><text x="458" y="172" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="20" font-weight="800">2</text>
-  <rect x="545" y="160" width="110" height="145" rx="16" fill="#111827"/>
-  <rect x="555" y="177" width="90" height="108" rx="8" fill="#f9fafb"/>
-  <rect x="566" y="190" width="68" height="22" rx="6" fill="#ef4444"/><text x="600" y="206" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="11" font-weight="700">SCAN</text>
-  <rect x="566" y="222" width="68" height="22" rx="6" fill="#e5e7eb"/><text x="600" y="238" text-anchor="middle" fill="#111827" font-family="Arial" font-size="11" font-weight="700">TYPE</text>
-  <rect x="566" y="254" width="68" height="22" rx="6" fill="#e5e7eb"/><text x="600" y="270" text-anchor="middle" fill="#111827" font-family="Arial" font-size="10" font-weight="700">EQUIPMENT</text>
-  <circle cx="600" cy="295" r="5" fill="#9ca3af"/>
-  <text x="458" y="345" fill="#111827" font-family="Arial" font-size="22" font-weight="800">CHOOSE A LOOKUP</text>
-  <text x="458" y="373" fill="#4b5563" font-family="Arial" font-size="16">Scan, type, or pick equipment.</text>
+  <!-- Card 2: choose lookup -->
+  <g>
+    <circle cx="491" cy="181" r="20" fill="#ef4444"/>
+    <text x="491" y="188" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="19" font-weight="800">2</text>
+    <rect x="520" y="162" width="88" height="36" rx="18" fill="#e0f2fe"/>
+    <text x="564" y="185" text-anchor="middle" fill="#0369a1" font-family="Arial, sans-serif" font-size="12" font-weight="800">OVERVIEW</text>
+    <rect x="576" y="205" width="128" height="162" rx="20" fill="#111827" filter="url(#smallShadow)"/>
+    <rect x="588" y="222" width="104" height="126" rx="10" fill="url(#phoneScreen)"/>
+    <rect x="599" y="231" width="82" height="18" rx="9" fill="#dcfce7"/>
+    <circle cx="610" cy="240" r="4" fill="#16a34a"/>
+    <text x="645" y="244" text-anchor="middle" fill="#166534" font-family="Arial, sans-serif" font-size="9" font-weight="800">ONLINE</text>
+    <rect x="599" y="258" width="82" height="23" rx="6" fill="#ef4444"/>
+    <text x="640" y="274" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10" font-weight="800">SCAN LABEL</text>
+    <rect x="599" y="288" width="82" height="23" rx="6" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="640" y="304" text-anchor="middle" fill="#334155" font-family="Arial, sans-serif" font-size="10" font-weight="800">ENTER SPEC</text>
+    <rect x="599" y="318" width="82" height="23" rx="6" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="640" y="334" text-anchor="middle" fill="#334155" font-family="Arial, sans-serif" font-size="9" font-weight="800">EQUIPMENT</text>
+    <circle cx="640" cy="357" r="4" fill="#64748b"/>
+    <path d="M716 279c17 3 29 14 34 30M718 261c30 5 51 25 58 52" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round"/>
+    <text x="483" y="399" fill="#111827" font-family="Arial, sans-serif" font-size="21" font-weight="800">CHOOSE A LOOKUP</text>
+    <text x="483" y="422" fill="#475569" font-family="Arial, sans-serif" font-size="14">Scan a label, type a spec,</text>
+    <text x="483" y="441" fill="#475569" font-family="Arial, sans-serif" font-size="14">or choose equipment.</text>
+  </g>
 
-  <!-- Panel 3 -->
-  <circle cx="838" cy="165" r="20" fill="#ef4444"/><text x="838" y="172" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="20" font-weight="800">3</text>
-  <rect x="900" y="168" width="160" height="118" rx="12" fill="#dbeafe" stroke="#2563eb" stroke-width="4"/>
-  <rect x="922" y="192" width="116" height="70" rx="6" fill="#ffffff" stroke="#93c5fd" stroke-width="2"/>
-  <text x="980" y="217" text-anchor="middle" fill="#111827" font-family="Arial" font-size="12" font-weight="800">SFI 16.1</text>
-  <text x="980" y="238" text-anchor="middle" fill="#4b5563" font-family="Arial" font-size="11">LABEL DATE: 2026</text>
-  <path d="M906 190v-16h16M1054 190v-16h-16M906 264v16h16M1054 264v16h-16" fill="none" stroke="#ef4444" stroke-width="4"/>
-  <text x="838" y="345" fill="#111827" font-family="Arial" font-size="22" font-weight="800">SCAN &amp; CONFIRM</text>
-  <text x="838" y="373" fill="#4b5563" font-family="Arial" font-size="16">Fix anything the camera reads wrong.</text>
+  <!-- Card 3: scan and confirm -->
+  <g>
+    <circle cx="906" cy="181" r="20" fill="#ef4444"/>
+    <text x="906" y="188" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="19" font-weight="800">3</text>
+    <rect x="935" y="162" width="118" height="36" rx="18" fill="#ede9fe"/>
+    <text x="994" y="185" text-anchor="middle" fill="#6d28d9" font-family="Arial, sans-serif" font-size="12" font-weight="800">CONFIRM INPUT</text>
+    <rect x="928" y="220" width="256" height="139" rx="16" fill="#e0f2fe" stroke="#2563eb" stroke-width="3" filter="url(#smallShadow)"/>
+    <rect x="956" y="245" width="200" height="82" rx="9" fill="#ffffff" stroke="#93c5fd" stroke-width="2"/>
+    <text x="1056" y="271" text-anchor="middle" fill="#0f172a" font-family="Arial, sans-serif" font-size="15" font-weight="800">SFI 16.1</text>
+    <text x="1056" y="295" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif" font-size="12">LABEL DATE: 03 / 2026</text>
+    <text x="1056" y="315" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif" font-size="11">SERIAL: A8B-2041</text>
+    <path d="M940 248v-17h17M1172 248v-17h-17M940 319v17h17M1172 319v17h-17" fill="none" stroke="#ef4444" stroke-width="4"/>
+    <rect x="975" y="337" width="162" height="12" rx="6" fill="#bfdbfe"/>
+    <rect x="975" y="337" width="140" height="12" rx="6" fill="#2563eb"/>
+    <text x="1161" y="347" fill="#1e40af" font-family="Arial, sans-serif" font-size="10" font-weight="800">92%</text>
+    <text x="898" y="399" fill="#111827" font-family="Arial, sans-serif" font-size="21" font-weight="800">SCAN &amp; CONFIRM</text>
+    <text x="898" y="422" fill="#475569" font-family="Arial, sans-serif" font-size="14">The inspector checks every field</text>
+    <text x="898" y="441" fill="#475569" font-family="Arial, sans-serif" font-size="14">before moving on.</text>
+  </g>
 
-  <!-- Panel 4 -->
-  <circle cx="78" cy="460" r="20" fill="#ef4444"/><text x="78" y="467" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="20" font-weight="800">4</text>
-  <rect x="102" y="485" width="235" height="115" rx="14" fill="#ecfdf5" stroke="#059669" stroke-width="3"/>
-  <circle cx="132" cy="518" r="17" fill="#059669"/><path d="M124 518l6 6 11-14" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
-  <text x="160" y="515" fill="#065f46" font-family="Arial" font-size="16" font-weight="800">REFERENCE FOUND</text>
-  <text x="122" y="548" fill="#111827" font-family="Arial" font-size="14" font-weight="700">SFI 16.1 • Driver Restraint</text>
-  <text x="122" y="575" fill="#4b5563" font-family="Arial" font-size="12">Source updated today</text>
-  <text x="78" y="640" fill="#111827" font-family="Arial" font-size="22" font-weight="800">QUICK REFERENCE</text>
-  <text x="78" y="668" fill="#4b5563" font-family="Arial" font-size="16">See the key facts and source date.</text>
+  <!-- Card 4: quick reference -->
+  <g>
+    <circle cx="76" cy="536" r="20" fill="#ef4444"/>
+    <text x="76" y="543" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="19" font-weight="800">4</text>
+    <rect x="105" y="517" width="118" height="36" rx="18" fill="#dcfce7"/>
+    <text x="164" y="540" text-anchor="middle" fill="#166534" font-family="Arial, sans-serif" font-size="12" font-weight="800">FAST LAYER</text>
+    <rect x="84" y="570" width="282" height="150" rx="16" fill="#ecfdf5" stroke="#059669" stroke-width="3" filter="url(#smallShadow)"/>
+    <circle cx="113" cy="599" r="15" fill="#059669"/>
+    <path d="M106 599l5 5 10-13" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+    <text x="140" y="604" fill="#065f46" font-family="Arial, sans-serif" font-size="14" font-weight="800">REFERENCE FOUND</text>
+    <text x="104" y="635" fill="#0f172a" font-family="Arial, sans-serif" font-size="14" font-weight="800">SFI 16.1 • Driver Restraint</text>
+    <text x="104" y="660" fill="#475569" font-family="Arial, sans-serif" font-size="11">Label: 03/2026  •  Review period: 2 years</text>
+    <text x="104" y="681" fill="#475569" font-family="Arial, sans-serif" font-size="11">Source revision: current  •  Synced: today</text>
+    <rect x="104" y="693" width="112" height="18" rx="6" fill="#059669"/>
+    <text x="160" y="706" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="9" font-weight="800">OFFICIAL SPEC</text>
+    <rect x="225" y="693" width="121" height="18" rx="6" fill="#ffffff" stroke="#86efac"/>
+    <text x="286" y="706" text-anchor="middle" fill="#166534" font-family="Arial, sans-serif" font-size="9" font-weight="800">MANUAL REVIEW</text>
+    <text x="68" y="754" fill="#111827" font-family="Arial, sans-serif" font-size="21" font-weight="800">QUICK REFERENCE</text>
+    <text x="68" y="777" fill="#475569" font-family="Arial, sans-serif" font-size="14">Key facts, source revision,</text>
+    <text x="68" y="796" fill="#475569" font-family="Arial, sans-serif" font-size="14">and next actions.</text>
+  </g>
 
-  <!-- Panel 5 -->
-  <circle cx="458" cy="460" r="20" fill="#ef4444"/><text x="458" y="467" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="20" font-weight="800">5</text>
-  <path d="M555 480h95l35 35v110H555z" fill="#eff6ff" stroke="#2563eb" stroke-width="4"/>
-  <path d="M650 480v35h35" fill="#bfdbfe" stroke="#2563eb" stroke-width="4"/>
-  <path d="M580 545h80M580 567h80M580 589h55" stroke="#60a5fa" stroke-width="7" stroke-linecap="round"/>
-  <text x="458" y="640" fill="#111827" font-family="Arial" font-size="22" font-weight="800">OPEN OFFICIAL SOURCE</text>
-  <text x="458" y="668" fill="#4b5563" font-family="Arial" font-size="16">The rulebook controls the decision.</text>
+  <!-- Card 5: official source -->
+  <g>
+    <circle cx="491" cy="536" r="20" fill="#ef4444"/>
+    <text x="491" y="543" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="19" font-weight="800">5</text>
+    <rect x="520" y="517" width="134" height="36" rx="18" fill="#dbeafe"/>
+    <text x="587" y="540" text-anchor="middle" fill="#1d4ed8" font-family="Arial, sans-serif" font-size="12" font-weight="800">OFFICIAL LAYER</text>
+    <rect x="550" y="568" width="180" height="158" rx="16" fill="#111827" filter="url(#smallShadow)"/>
+    <rect x="562" y="584" width="156" height="122" rx="9" fill="#f8fafc"/>
+    <rect x="574" y="595" width="76" height="18" rx="9" fill="#fee2e2"/>
+    <text x="612" y="608" text-anchor="middle" fill="#b91c1c" font-family="Arial, sans-serif" font-size="9" font-weight="800">OFFICIAL SFI</text>
+    <text x="640" y="635" text-anchor="middle" fill="#0f172a" font-family="Arial, sans-serif" font-size="11" font-weight="800">SPECIFICATION 16.1</text>
+    <text x="574" y="655" fill="#64748b" font-family="Arial, sans-serif" font-size="10">Effective date and revision</text>
+    <path d="M574 672h118M574 688h94" stroke="#93c5fd" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="690" cy="677" r="17" fill="#2563eb"/>
+    <path d="M683 677h14M690 670v14" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+    <text x="483" y="754" fill="#111827" font-family="Arial, sans-serif" font-size="21" font-weight="800">OPEN OFFICIAL SOURCE</text>
+    <text x="483" y="777" fill="#475569" font-family="Arial, sans-serif" font-size="14">The current spec and rulebook</text>
+    <text x="483" y="796" fill="#475569" font-family="Arial, sans-serif" font-size="14">control the decision.</text>
+  </g>
 
-  <!-- Panel 6 -->
-  <circle cx="838" cy="460" r="20" fill="#ef4444"/><text x="838" y="467" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="20" font-weight="800">6</text>
-  <path d="M975 480l75 130H900z" fill="#fef3c7" stroke="#d97706" stroke-width="4"/>
-  <text x="975" y="566" text-anchor="middle" fill="#92400e" font-family="Arial" font-size="52" font-weight="900">!</text>
-  <rect x="890" y="615" width="170" height="40" rx="10" fill="#ef4444"/>
-  <text x="975" y="641" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="14" font-weight="800">MANUAL REVIEW</text>
-  <text x="838" y="675" fill="#111827" font-family="Arial" font-size="20" font-weight="800">STOP WHEN UNSURE</text>
-  <text x="838" y="705" fill="#4b5563" font-family="Arial" font-size="15">Never guess or claim the item passed.</text>
+  <!-- Card 6: manual review -->
+  <g>
+    <circle cx="906" cy="536" r="20" fill="#ef4444"/>
+    <text x="906" y="543" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="19" font-weight="800">6</text>
+    <rect x="935" y="517" width="128" height="36" rx="18" fill="#fef3c7"/>
+    <text x="999" y="540" text-anchor="middle" fill="#92400e" font-family="Arial, sans-serif" font-size="12" font-weight="800">SAFE FALLBACK</text>
+    <rect x="929" y="574" width="252" height="151" rx="16" fill="#fff7ed" stroke="#d97706" stroke-width="3" filter="url(#smallShadow)"/>
+    <path d="M966 596l27 47h-54z" fill="#fbbf24" stroke="#d97706" stroke-width="3"/>
+    <text x="966" y="632" text-anchor="middle" fill="#78350f" font-family="Arial, sans-serif" font-size="25" font-weight="900">!</text>
+    <text x="1010" y="609" fill="#9a3412" font-family="Arial, sans-serif" font-size="14" font-weight="800">SCAN UNCLEAR</text>
+    <text x="1010" y="630" fill="#7c2d12" font-family="Arial, sans-serif" font-size="10">Confirm 2 unclear characters</text>
+    <rect x="949" y="657" width="92" height="20" rx="10" fill="#ffedd5"/>
+    <text x="995" y="671" text-anchor="middle" fill="#9a3412" font-family="Arial, sans-serif" font-size="9" font-weight="800">CACHE: 1 DAY OLD</text>
+    <rect x="949" y="687" width="212" height="25" rx="7" fill="#ef4444"/>
+    <text x="1055" y="704" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11" font-weight="800">HOLD FOR MANUAL REVIEW</text>
+    <text x="898" y="754" fill="#111827" font-family="Arial, sans-serif" font-size="21" font-weight="800">STOP WHEN UNSURE</text>
+    <text x="898" y="777" fill="#475569" font-family="Arial, sans-serif" font-size="14">The tool explains the problem,</text>
+    <text x="898" y="796" fill="#475569" font-family="Arial, sans-serif" font-size="14">then sends it to human review.</text>
+  </g>
 
-  <text x="600" y="735" text-anchor="middle" fill="#9ca3af" font-family="Arial" font-size="13">Storyboard concept for Issue #11 • Ideation only</text>
+  <g fill="#ef4444">
+    <circle cx="506" cy="848" r="5"/><circle cx="552" cy="848" r="5"/><circle cx="598" cy="848" r="5"/>
+    <circle cx="644" cy="848" r="5"/><circle cx="690" cy="848" r="5"/><circle cx="736" cy="848" r="5"/>
+  </g>
+  <text x="621" y="876" text-anchor="middle" fill="#aebdd1" font-family="Arial, sans-serif" font-size="13">Storyboard concept for Issue #11 • Ideation only</text>
 </svg>
