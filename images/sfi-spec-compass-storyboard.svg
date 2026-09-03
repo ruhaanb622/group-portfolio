@@ -1,108 +1,103 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1400" viewBox="0 0 1440 1400" role="img" aria-labelledby="title desc">
-<title id="title">Six-screen storyboard for the Plain-language SFI Spec Compass</title>
-<desc id="desc">A two-column storyboard shows a racer asking a safety question, reviewing search limits, clarifying context, comparing traceable results, opening an official source, and recovering safely when no confident match exists.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1340" viewBox="0 0 1440 1340" role="img" aria-labelledby="title desc">
+<title id="title">Visual storyboard for the Plain-language SFI Spec Compass</title>
+<desc id="desc">Six simple panels show asking, understanding limits, clarifying, comparing, verifying, and refining.</desc>
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07101f"/><stop offset="1" stop-color="#102b32"/></linearGradient>
   <style>
-    .panel{fill:#111a2a;stroke:#30435d;stroke-width:2}.num{fill:#70e6d1;font:700 17px Arial,sans-serif;letter-spacing:1px}.head{fill:#f7fbff;font:700 26px Arial,sans-serif}.body{fill:#b7c4d6;font:18px Arial,sans-serif}.tiny{fill:#8fa2ba;font:15px Arial,sans-serif}.ui{fill:#0a111d;stroke:#405574;stroke-width:2}.accent{fill:#70e6d1}.blue{fill:#78a9ff}.label{fill:#07131a;font:700 14px Arial,sans-serif}.white{fill:#f7fbff;font:17px Arial,sans-serif}.line{stroke:#70e6d1;stroke-width:3;stroke-linecap:round}
+    .panel{fill:#111a2a;stroke:#30435d;stroke-width:2}.num{fill:#70e6d1;font:700 17px Arial,sans-serif;letter-spacing:1px}.head{fill:#f7fbff;font:700 28px Arial,sans-serif}.ui{fill:#0a111d;stroke:#405574;stroke-width:2}.white{fill:#f7fbff;font:18px Arial,sans-serif}.muted{fill:#9fb0c6;font:15px Arial,sans-serif}.accent{fill:#70e6d1}.blue{fill:#78a9ff}.button{fill:#07131a;font:700 14px Arial,sans-serif}.line{stroke:#70e6d1;stroke-width:3;stroke-linecap:round}
   </style>
 </defs>
-<rect width="1440" height="1400" fill="url(#bg)"/>
+<rect width="1440" height="1340" fill="url(#bg)"/>
 <text x="60" y="58" fill="#70e6d1" font-family="Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="3">PLAIN-LANGUAGE SFI SPEC COMPASS</text>
-<text x="60" y="104" fill="#f7fbff" font-family="Arial, sans-serif" font-size="38" font-weight="800">From a practical question to an official source</text>
-<text x="60" y="139" fill="#aebdd0" font-family="Arial, sans-serif" font-size="18">Six-screen ideation storyboard · no product implementation</text>
+<text x="60" y="105" fill="#f7fbff" font-family="Arial, sans-serif" font-size="39" font-weight="800">Visual storyboard</text>
+<text x="60" y="140" fill="#aebdd0" font-family="Arial, sans-serif" font-size="18">Ask → clarify → compare → verify</text>
 
 <g transform="translate(50 180)">
-  <rect class="panel" width="650" height="350" rx="20"/>
-  <text class="num" x="26" y="38">01 · GAIN ATTENTION</text>
-  <text class="head" x="26" y="78">Ask a practical question</text>
-  <circle cx="112" cy="177" r="55" fill="#22314a"/>
-  <path d="M72 183c9-44 73-51 83-9l-8 27H79z" fill="#eaf2ff"/>
-  <path d="M76 169c16-20 49-28 73-9l-5-26c-21-20-55-16-68 8z" fill="#78a9ff"/>
-  <rect x="49" y="235" width="132" height="55" rx="20" fill="#26364f"/>
-  <rect x="214" y="112" width="405" height="119" rx="16" class="ui"/>
-  <text class="white" x="238" y="151">“Which safety information applies</text>
-  <text class="white" x="238" y="181">to my restraint?”</text>
-  <text class="tiny" x="238" y="211">I do not know the spec number.</text>
-  <text class="body" x="26" y="323">A real need begins the search.</text>
+  <rect class="panel" width="650" height="330" rx="20"/>
+  <text class="num" x="26" y="39">01</text>
+  <text class="head" x="26" y="82">Ask</text>
+  <circle cx="116" cy="175" r="57" fill="#22314a"/>
+  <path d="M75 181c9-45 75-52 85-9l-8 28H82z" fill="#eaf2ff"/>
+  <path d="M79 167c17-21 50-29 75-9l-5-27c-21-21-56-17-70 8z" fill="#78a9ff"/>
+  <rect x="52" y="236" width="134" height="55" rx="20" fill="#26364f"/>
+  <rect x="226" y="112" width="393" height="126" rx="17" class="ui"/>
+  <text class="white" x="252" y="163">“Restraint safety info?”</text>
+  <rect x="414" y="188" width="177" height="30" rx="15" class="accent"/>
+  <text class="button" x="458" y="208">FIND SOURCE</text>
 </g>
 
 <g transform="translate(740 180)">
-  <rect class="panel" width="650" height="350" rx="20"/>
-  <text class="num" x="26" y="38">02 · OVERVIEW</text>
-  <text class="head" x="26" y="78">Set expectations first</text>
-  <rect x="26" y="106" width="598" height="174" rx="16" class="ui"/>
-  <circle cx="67" cy="146" r="19" fill="#183e42"/>
-  <text x="67" y="152" text-anchor="middle" fill="#70e6d1" font-family="Arial" font-size="20" font-weight="700">i</text>
-  <text class="white" x="102" y="143">This tool helps you find official sources.</text>
-  <text class="body" x="49" y="188">• It does not certify equipment.</text>
-  <text class="body" x="49" y="222">• Official documents remain controlling.</text>
-  <rect x="438" y="239" width="162" height="27" rx="14" class="accent"/>
-  <text class="label" x="476" y="258">START SEARCH</text>
-  <text class="body" x="26" y="323">Limits appear before any result.</text>
+  <rect class="panel" width="650" height="330" rx="20"/>
+  <text class="num" x="26" y="39">02</text>
+  <text class="head" x="26" y="82">Know the limits</text>
+  <rect x="26" y="111" width="598" height="158" rx="17" class="ui"/>
+  <circle cx="72" cy="157" r="22" fill="#183e42"/>
+  <text x="72" y="164" text-anchor="middle" fill="#70e6d1" font-family="Arial" font-size="22" font-weight="700">i</text>
+  <text class="white" x="112" y="153">Search aid</text>
+  <text class="muted" x="112" y="184">Official sources control</text>
+  <rect x="444" y="217" width="152" height="31" rx="16" class="accent"/>
+  <text class="button" x="482" y="238">CONTINUE</text>
 </g>
 
-<g transform="translate(50 560)">
-  <rect class="panel" width="650" height="350" rx="20"/>
-  <text class="num" x="26" y="38">03 · ASK + CLARIFY</text>
-  <text class="head" x="26" y="78">Use everyday language</text>
-  <rect x="26" y="105" width="598" height="68" rx="14" class="ui"/>
-  <circle cx="60" cy="139" r="11" fill="none" stroke="#70e6d1" stroke-width="3"/>
-  <line x1="68" y1="148" x2="77" y2="157" class="line"/>
-  <text class="white" x="96" y="145">restraint inspection information</text>
-  <text class="tiny" x="29" y="208">Help us narrow the meaning:</text>
-  <rect x="29" y="226" width="152" height="36" rx="18" fill="#183e42"/>
-  <text x="105" y="249" text-anchor="middle" fill="#70e6d1" font-family="Arial" font-size="14">Equipment</text>
-  <rect x="194" y="226" width="152" height="36" rx="18" fill="#17253a"/>
-  <text x="270" y="249" text-anchor="middle" fill="#a9c4ef" font-family="Arial" font-size="14">Use case</text>
-  <rect x="359" y="226" width="173" height="36" rx="18" fill="#17253a"/>
-  <text x="445" y="249" text-anchor="middle" fill="#a9c4ef" font-family="Arial" font-size="14">Question type</text>
-  <text class="body" x="26" y="323">The user confirms context—not jargon.</text>
+<g transform="translate(50 535)">
+  <rect class="panel" width="650" height="330" rx="20"/>
+  <text class="num" x="26" y="39">03</text>
+  <text class="head" x="26" y="82">Clarify</text>
+  <rect x="26" y="110" width="598" height="70" rx="15" class="ui"/>
+  <circle cx="62" cy="145" r="11" fill="none" stroke="#70e6d1" stroke-width="3"/>
+  <line x1="70" y1="154" x2="79" y2="163" class="line"/>
+  <text class="white" x="100" y="151">Restraint inspection</text>
+  <rect x="29" y="220" width="162" height="38" rx="19" fill="#183e42"/>
+  <text x="110" y="244" text-anchor="middle" fill="#70e6d1" font-family="Arial" font-size="14">EQUIPMENT</text>
+  <rect x="208" y="220" width="142" height="38" rx="19" fill="#17253a"/>
+  <text x="279" y="244" text-anchor="middle" fill="#a9c4ef" font-family="Arial" font-size="14">USE</text>
+  <rect x="367" y="220" width="176" height="38" rx="19" fill="#17253a"/>
+  <text x="455" y="244" text-anchor="middle" fill="#a9c4ef" font-family="Arial" font-size="14">QUESTION</text>
 </g>
 
-<g transform="translate(740 560)">
-  <rect class="panel" width="650" height="350" rx="20"/>
-  <text class="num" x="26" y="38">04 · TRACEABLE RESULTS</text>
-  <text class="head" x="26" y="78">Explain every match</text>
-  <rect x="26" y="104" width="598" height="164" rx="16" class="ui"/>
-  <rect x="45" y="122" width="110" height="27" rx="14" fill="#183e42"/>
-  <text x="100" y="141" text-anchor="middle" fill="#70e6d1" font-family="Arial" font-size="12" font-weight="700">BEST MATCH</text>
-  <text class="white" x="45" y="181">Specification title + number</text>
-  <text class="tiny" x="45" y="211">Why it matched · revision · checked date</text>
-  <rect x="450" y="224" width="150" height="27" rx="14" class="blue"/>
-  <text class="label" x="482" y="243">VIEW SOURCE</text>
-  <text class="body" x="26" y="306">No answer appears without a source.</text>
-  <text class="tiny" x="26" y="330">Optional audio reads the same visible text.</text>
+<g transform="translate(740 535)">
+  <rect class="panel" width="650" height="330" rx="20"/>
+  <text class="num" x="26" y="39">04</text>
+  <text class="head" x="26" y="82">Compare</text>
+  <rect x="26" y="108" width="598" height="172" rx="17" class="ui"/>
+  <rect x="47" y="128" width="111" height="28" rx="14" fill="#183e42"/>
+  <text x="102" y="147" text-anchor="middle" fill="#70e6d1" font-family="Arial" font-size="12" font-weight="700">BEST MATCH</text>
+  <text class="white" x="47" y="198">Spec title + number</text>
+  <text class="muted" x="47" y="230">Why this match?</text>
+  <rect x="430" y="225" width="169" height="32" rx="16" class="blue"/>
+  <text class="button" x="466" y="246">VIEW SOURCE</text>
 </g>
 
-<g transform="translate(50 940)">
-  <rect class="panel" width="650" height="350" rx="20"/>
-  <text class="num" x="26" y="38">05 · OFFICIAL SOURCE</text>
-  <text class="head" x="26" y="78">Verify before acting</text>
-  <rect x="26" y="104" width="598" height="178" rx="16" fill="#f4f7fb"/>
-  <rect x="26" y="104" width="598" height="38" rx="16" fill="#dce6f4"/>
-  <circle cx="51" cy="123" r="5" fill="#ef6b6b"/><circle cx="70" cy="123" r="5" fill="#e8b75c"/><circle cx="89" cy="123" r="5" fill="#6fcf97"/>
-  <text x="52" y="178" fill="#162033" font-family="Arial" font-size="19" font-weight="700">Official document title</text>
-  <text x="52" y="209" fill="#52617a" font-family="Arial" font-size="15">Effective date · revision · relevant section</text>
-  <line x1="52" y1="236" x2="574" y2="236" stroke="#b4c0d1" stroke-width="2"/>
-  <line x1="52" y1="258" x2="440" y2="258" stroke="#c8d1de" stroke-width="2"/>
-  <text class="body" x="26" y="323">The controlling document stays primary.</text>
+<g transform="translate(50 890)">
+  <rect class="panel" width="650" height="330" rx="20"/>
+  <text class="num" x="26" y="39">05</text>
+  <text class="head" x="26" y="82">Verify</text>
+  <rect x="26" y="108" width="598" height="183" rx="17" fill="#f4f7fb"/>
+  <rect x="26" y="108" width="598" height="40" rx="17" fill="#dce6f4"/>
+  <circle cx="52" cy="128" r="5" fill="#ef6b6b"/><circle cx="71" cy="128" r="5" fill="#e8b75c"/><circle cx="90" cy="128" r="5" fill="#6fcf97"/>
+  <text x="53" y="187" fill="#162033" font-family="Arial" font-size="21" font-weight="700">Official document</text>
+  <rect x="53" y="214" width="118" height="27" rx="14" fill="#d9e3f0"/>
+  <text x="112" y="232" text-anchor="middle" fill="#52617a" font-family="Arial" font-size="13">REVISION</text>
+  <rect x="184" y="214" width="96" height="27" rx="14" fill="#d9e3f0"/>
+  <text x="232" y="232" text-anchor="middle" fill="#52617a" font-family="Arial" font-size="13">DATE</text>
+  <rect x="293" y="214" width="110" height="27" rx="14" fill="#d9e3f0"/>
+  <text x="348" y="232" text-anchor="middle" fill="#52617a" font-family="Arial" font-size="13">SECTION</text>
 </g>
 
-<g transform="translate(740 940)">
-  <rect class="panel" width="650" height="350" rx="20"/>
-  <text class="num" x="26" y="38">06 · SAFE RECOVERY</text>
-  <text class="head" x="26" y="78">No confident match</text>
-  <polygon points="68,112 96,160 40,160" fill="#ffbd6c"/>
-  <text x="68" y="152" text-anchor="middle" fill="#18202d" font-family="Arial" font-size="20" font-weight="800">!</text>
-  <text class="white" x="115" y="142">We need more information.</text>
-  <text class="body" x="29" y="198">• Refine the equipment category</text>
-  <text class="body" x="29" y="232">• Try a specification number</text>
-  <text class="body" x="29" y="266">• Browse the official directory</text>
-  <rect x="434" y="285" width="190" height="28" rx="14" class="accent"/>
-  <text class="label" x="474" y="305">REFINE QUESTION</text>
-  <text class="tiny" x="26" y="331">The tool never invents a confident answer.</text>
+<g transform="translate(740 890)">
+  <rect class="panel" width="650" height="330" rx="20"/>
+  <text class="num" x="26" y="39">06</text>
+  <text class="head" x="26" y="82">Refine</text>
+  <polygon points="71,113 101,165 41,165" fill="#ffbd6c"/>
+  <text x="71" y="156" text-anchor="middle" fill="#18202d" font-family="Arial" font-size="21" font-weight="800">!</text>
+  <text class="white" x="122" y="147">No confident match</text>
+  <rect x="35" y="213" width="159" height="39" rx="20" fill="#183e42"/>
+  <text x="114" y="238" text-anchor="middle" fill="#70e6d1" font-family="Arial" font-size="14">CATEGORY</text>
+  <rect x="211" y="213" width="159" height="39" rx="20" fill="#17253a"/>
+  <text x="290" y="238" text-anchor="middle" fill="#a9c4ef" font-family="Arial" font-size="14">SPEC #</text>
+  <rect x="387" y="213" width="188" height="39" rx="20" fill="#17253a"/>
+  <text x="481" y="238" text-anchor="middle" fill="#a9c4ef" font-family="Arial" font-size="14">DIRECTORY</text>
 </g>
 
-<text x="720" y="1360" text-anchor="middle" fill="#8fa2ba" font-family="Arial, sans-serif" font-size="17">Each match explains why, shows uncertainty, and leads to an official source.</text>
+<text x="720" y="1290" text-anchor="middle" fill="#8fa2ba" font-family="Arial, sans-serif" font-size="17">Official source first.</text>
 </svg>
