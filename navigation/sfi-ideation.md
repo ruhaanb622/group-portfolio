@@ -367,7 +367,7 @@ show_reading_time: false
         <h4>Guiding question</h4>
         <p>Can reliable date rules be sourced consistently enough to support reminders without giving unsafe advice?</p>
         <p><strong>Data question:</strong> Determine which schedules are public, stable, and appropriate for a non-authoritative reminder tool.</p>
-        <a class="sfi-link" href="https://github.com/ruhaanb622/group-portfolio/issues/9">Discuss both Ruhaan ideas in issue #9 →</a>
+        <a class="sfi-link" href="https://github.com/ruhaanb622/group-portfolio/issues/12">Discuss in issue #12 →</a>
       </article>
 
       <article class="sfi-card">
@@ -387,7 +387,7 @@ show_reading_time: false
         <h4>Guiding question</h4>
         <p>What real workflow exists today, and would a student-built prototype address a meaningful bottleneck?</p>
         <p><strong>Scope risk:</strong> Authentication, private documents, permissions, and retention policies may make this direction too broad.</p>
-        <a class="sfi-link" href="https://github.com/ruhaanb622/group-portfolio/issues/10">Discuss both Arya ideas in issue #10 →</a>
+        <a class="sfi-link" href="https://github.com/ruhaanb622/group-portfolio/issues/13">Discuss in issue #13 →</a>
       </article>
 
       <article class="sfi-card">
@@ -407,7 +407,7 @@ show_reading_time: false
         <h4>Guiding question</h4>
         <p>Which misconceptions create the most risk for beginners, and how should SFI review educational wording?</p>
         <p><strong>Difference to investigate:</strong> Structured learning outcomes and scenario feedback rather than a general information page.</p>
-        <a class="sfi-link" href="https://github.com/ruhaanb622/group-portfolio/issues/11">Discuss both Deyar ideas in issue #11 →</a>
+        <a class="sfi-link" href="https://github.com/ruhaanb622/group-portfolio/issues/14">Discuss and test in issue #14 →</a>
       </article>
     </div>
   </section>
@@ -430,7 +430,7 @@ show_reading_time: false
       <h2>Questions for the previous Greppers team</h2>
       <p>
         Before narrowing the six ideas, we plan to talk with the creators of the
-        previous page and prototype. Contact has not yet been recorded; the task and evidence checklist are tracked in <a href="https://github.com/ruhaanb622/group-portfolio/issues/15">issue #15</a>.
+        previous page and prototype. Contact has not yet been recorded; the discussion checklist is tracked inside <a href="https://github.com/ruhaanb622/group-portfolio/issues/8">Big Issue #8</a>.
       </p>
     </div>
     <div class="sfi-grid">
@@ -453,7 +453,7 @@ show_reading_time: false
     </div>
     <p class="sfi-footer-note">
       Starting references: <a href="https://pages.opencodingsociety.com/capstone/greppers/">current Greppers capstone page</a>
-      and <a href="https://github.com/TheGreppers/greppers/issues/23">previous-team handoff issue</a>. Follow-up notes will be recorded in <a href="https://github.com/ruhaanb622/group-portfolio/issues/15">our discussion issue #15</a>.
+      and <a href="https://github.com/TheGreppers/greppers/issues/23">previous-team handoff issue</a>. Follow-up notes will be recorded in <a href="https://github.com/ruhaanb622/group-portfolio/issues/8">Big Issue #8</a>.
       We will ask before reusing code or assets and preserve attribution.
     </p>
   </section>
