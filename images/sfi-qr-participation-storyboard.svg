@@ -50,10 +50,10 @@
     <circle cx="689" cy="470" r="12" fill="#22d3ee"/><path d="M683 470l5 5 9-11" stroke="#06111f" stroke-width="4" fill="none"/>
     <rect x="710" y="463" width="45" height="10" rx="5" fill="#64748b"/><rect x="676" y="494" width="80" height="9" rx="4" fill="#334155"/>
     <rect x="676" y="512" width="68" height="9" rx="4" fill="#334155"/><rect x="676" y="530" width="52" height="9" rx="4" fill="#22d3ee"/>
- <text x="820" y="413" font-size="23" font-weight="700" fill="#f8fafc">Read a limited result</text>
- <text x="820" y="448" font-size="16" fill="#cbd5e1" font-weight="400">Show Listed, Needs Review,</text><text x="820" y="473" font-size="16" fill="#cbd5e1" font-weight="400">or No Match with plain</text><text x="820" y="498" font-size="16" fill="#cbd5e1" font-weight="400">verification limits.</text>
- <rect x="820" y="534" width="196" height="30" rx="15" fill="#22d3ee" opacity=".18"/>
- <text x="837" y="555" font-size="14" font-weight="700" fill="#22d3ee">NOT AN ENDORSEMENT</text>
+ <text x="820" y="413" font-size="23" font-weight="700" fill="#f8fafc">Participation record found</text>
+ <text x="820" y="448" font-size="16" fill="#cbd5e1" font-weight="400">Repeat manufacturer, spec,</text><text x="820" y="473" font-size="16" fill="#cbd5e1" font-weight="400">label date, and source date.</text><text x="820" y="498" font-size="16" fill="#cbd5e1" font-weight="400">Do not verify the item itself.</text>
+ <rect x="820" y="534" width="232" height="30" rx="15" fill="#22d3ee" opacity=".18"/>
+ <text x="837" y="555" font-size="14" font-weight="700" fill="#22d3ee">NOT ITEM AUTHENTICATION</text>
  </g><g font-family="Arial,Helvetica,sans-serif" filter="url(#shadow)">
  <rect x="35" y="610" width="550" height="210" rx="20" fill="#101c31" stroke="#334155" stroke-width="2"/>
  <rect x="35" y="610" width="8" height="210" rx="4" fill="#22d3ee"/>
