@@ -24,6 +24,12 @@
     <filter id="smallShadow" x="-20%" y="-20%" width="140%" height="150%">
       <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#0f172a" flood-opacity=".22"/>
     </filter>
+    <clipPath id="clipCard1"><rect x="40" y="145" width="370" height="305" rx="22"/></clipPath>
+    <clipPath id="clipCard2"><rect x="455" y="145" width="370" height="305" rx="22"/></clipPath>
+    <clipPath id="clipCard3"><rect x="870" y="145" width="370" height="305" rx="22"/></clipPath>
+    <clipPath id="clipCard4"><rect x="40" y="500" width="370" height="305" rx="22"/></clipPath>
+    <clipPath id="clipCard5"><rect x="455" y="500" width="370" height="305" rx="22"/></clipPath>
+    <clipPath id="clipCard6"><rect x="870" y="500" width="370" height="305" rx="22"/></clipPath>
   </defs>
 
   <rect width="1280" height="900" rx="30" fill="url(#background)"/>
@@ -43,14 +49,14 @@
   </g>
 
   <!-- Card 1: vehicle arrives -->
-  <g>
+  <g clip-path="url(#clipCard1)">
     <circle cx="76" cy="181" r="20" fill="#ef4444"/>
     <text x="76" y="188" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="19" font-weight="800">1</text>
     <rect x="105" y="162" width="128" height="36" rx="18" fill="#fee2e2"/>
     <text x="169" y="185" text-anchor="middle" fill="#b91c1c" font-family="Arial, sans-serif" font-size="12" font-weight="800">GAIN ATTENTION</text>
-    <circle cx="345" cy="194" r="26" fill="#fbbf24"/>
+    <circle cx="345" cy="204" r="26" fill="#fbbf24"/>
     <g stroke="#f59e0b" stroke-width="3" stroke-linecap="round">
-      <path d="M345 153v-11M345 246v-11M304 194h-11M397 194h-11M316 165l-8-8M382 231l-8-8M374 165l8-8M308 231l8-8"/>
+      <path d="M345 163v-11M345 256v-11M304 204h-11M397 204h-11M316 175l-8-8M382 241l-8-8M374 175l8-8M308 241l8-8"/>
     </g>
     <path d="M132 316h22l27-48h90l42 48h30c18 0 28 11 31 31H113c3-19 9-31 19-31z" fill="url(#redCar)" filter="url(#smallShadow)"/>
     <path d="M192 279h68l30 37H166z" fill="#bfdbfe" stroke="#ffffff" stroke-width="3"/>
@@ -66,7 +72,7 @@
   </g>
 
   <!-- Card 2: choose lookup -->
-  <g>
+  <g clip-path="url(#clipCard2)">
     <circle cx="491" cy="181" r="20" fill="#ef4444"/>
     <text x="491" y="188" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="19" font-weight="800">2</text>
     <rect x="520" y="162" width="88" height="36" rx="18" fill="#e0f2fe"/>
@@ -90,7 +96,7 @@
   </g>
 
   <!-- Card 3: scan and confirm -->
-  <g>
+  <g clip-path="url(#clipCard3)">
     <circle cx="906" cy="181" r="20" fill="#ef4444"/>
     <text x="906" y="188" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="19" font-weight="800">3</text>
     <rect x="935" y="162" width="118" height="36" rx="18" fill="#ede9fe"/>
@@ -110,7 +116,7 @@
   </g>
 
   <!-- Card 4: quick reference -->
-  <g>
+  <g clip-path="url(#clipCard4)">
     <circle cx="76" cy="536" r="20" fill="#ef4444"/>
     <text x="76" y="543" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="19" font-weight="800">4</text>
     <rect x="105" y="517" width="118" height="36" rx="18" fill="#dcfce7"/>
@@ -132,7 +138,7 @@
   </g>
 
   <!-- Card 5: official source -->
-  <g>
+  <g clip-path="url(#clipCard5)">
     <circle cx="491" cy="536" r="20" fill="#ef4444"/>
     <text x="491" y="543" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="19" font-weight="800">5</text>
     <rect x="520" y="517" width="134" height="36" rx="18" fill="#dbeafe"/>
@@ -152,7 +158,7 @@
   </g>
 
   <!-- Card 6: manual review -->
-  <g>
+  <g clip-path="url(#clipCard6)">
     <circle cx="906" cy="536" r="20" fill="#ef4444"/>
     <text x="906" y="543" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="19" font-weight="800">6</text>
     <rect x="935" y="517" width="128" height="36" rx="18" fill="#fef3c7"/>
