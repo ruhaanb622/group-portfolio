@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1340" viewBox="0 0 1440 1340" role="img" aria-labelledby="title desc">
+<title id="title">Visual storyboard for an SFI inspection and recertification planning timeline</title>
+<desc id="desc">Six simple panels show planning an event, adding equipment, checking official sources, building a timeline, receiving a review reminder, and choosing a verified next step.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b1020"/><stop offset="1" stop-color="#211a12"/></linearGradient>
+  <style>
+    .panel{fill:#141b2b;stroke:#3d4b68;stroke-width:2}.num{fill:#ffc86b;font:700 17px Arial,sans-serif;letter-spacing:1px}.head{fill:#f8fbff;font:700 28px Arial,sans-serif}.ui{fill:#0b1220;stroke:#536482;stroke-width:2}.white{fill:#f8fbff;font:18px Arial,sans-serif}.muted{fill:#a8b5c9;font:15px Arial,sans-serif}.accent{fill:#ffc86b}.blue{fill:#79a8ff}.green{fill:#75dfc5}.button{fill:#10141c;font:700 14px Arial,sans-serif}.line{stroke:#ffc86b;stroke-width:4;stroke-linecap:round}.warn{fill:#ffc86b;font:700 13px Arial,sans-serif;letter-spacing:.4px}
+  </style>
+</defs>
+<rect width="1440" height="1340" fill="url(#bg)"/>
+<text x="60" y="58" fill="#ffc86b" font-family="Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="3">INSPECTION + RECERTIFICATION TIMELINE</text>
+<text x="60" y="105" fill="#f8fbff" font-family="Arial, sans-serif" font-size="39" font-weight="800">Visual storyboard</text>
+<text x="60" y="140" fill="#aebdd0" font-family="Arial, sans-serif" font-size="18">Plan → identify → verify → prepare</text>
+
+<g transform="translate(50 180)">
+  <rect class="panel" width="650" height="330" rx="20"/>
+  <text class="num" x="26" y="39">01</text>
+  <text class="head" x="26" y="82">Plan an event</text>
+  <rect x="66" y="116" width="218" height="164" rx="18" fill="#f4f7fb"/>
+  <rect x="66" y="116" width="218" height="42" rx="18" fill="#dce6f4"/>
+  <circle cx="105" cy="138" r="6" fill="#ef6b6b"/><circle cx="128" cy="138" r="6" fill="#e8b75c"/><circle cx="151" cy="138" r="6" fill="#6fcf97"/>
+  <path d="M92 185h32m18 0h32m18 0h32M92 215h32m18 0h32m18 0h32M92 245h32m18 0h32m18 0h32" stroke="#aab8cb" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="207" cy="215" r="13" class="accent"/>
+  <rect x="330" y="135" width="275" height="107" rx="17" class="ui"/>
+  <text class="muted" x="356" y="172">UPCOMING EVENT</text>
+  <text class="white" x="356" y="207">Add event date</text>
+</g>
+
+<g transform="translate(740 180)">
+  <rect class="panel" width="650" height="330" rx="20"/>
+  <text class="num" x="26" y="39">02</text>
+  <text class="head" x="26" y="82">Add equipment</text>
+  <rect x="27" y="111" width="218" height="160" rx="17" class="ui"/>
+  <path d="M67 172h138v70H67z" fill="#26344c"/><path d="M94 151h83l16 21H78z" fill="#425574"/>
+  <circle cx="136" cy="207" r="25" fill="none" stroke="#ffc86b" stroke-width="6"/>
+  <circle cx="136" cy="207" r="10" fill="#ffc86b"/>
+  <rect x="275" y="111" width="349" height="160" rx="17" class="ui"/>
+  <text class="muted" x="302" y="147">SPEC NUMBER</text><line x1="302" y1="162" x2="585" y2="162" stroke="#536482" stroke-width="2"/>
+  <text class="muted" x="302" y="198">MANUFACTURER</text><line x1="302" y1="213" x2="585" y2="213" stroke="#536482" stroke-width="2"/>
+  <text class="muted" x="302" y="249">LABEL DATE</text>
+</g>
+
+<g transform="translate(50 535)">
+  <rect class="panel" width="650" height="330" rx="20"/>
+  <text class="num" x="26" y="39">03</text>
+  <text class="head" x="26" y="82">Check sources</text>
+  <rect x="27" y="111" width="596" height="170" rx="17" class="ui"/>
+  <circle cx="71" cy="156" r="18" fill="#253a55"/><text x="71" y="162" text-anchor="middle" fill="#79a8ff" font-family="Arial" font-size="18" font-weight="700">1</text>
+  <text class="white" x="108" y="161">Official specification</text>
+  <circle cx="71" cy="207" r="18" fill="#2c493f"/><text x="71" y="213" text-anchor="middle" fill="#75dfc5" font-family="Arial" font-size="18" font-weight="700">2</text>
+  <text class="white" x="108" y="212">Original manufacturer</text>
+  <circle cx="71" cy="258" r="18" fill="#4a3b21"/><text x="71" y="264" text-anchor="middle" fill="#ffc86b" font-family="Arial" font-size="18" font-weight="700">3</text>
+  <text class="white" x="108" y="263">Current event rules</text>
+</g>
+
+<g transform="translate(740 535)">
+  <rect class="panel" width="650" height="330" rx="20"/>
+  <text class="num" x="26" y="39">04</text>
+  <text class="head" x="26" y="82">Build the timeline</text>
+  <line x1="82" y1="188" x2="568" y2="188" class="line"/>
+  <circle cx="108" cy="188" r="16" fill="#ffc86b"/><circle cx="325" cy="188" r="16" fill="#79a8ff"/><circle cx="542" cy="188" r="16" fill="#75dfc5"/>
+  <text class="muted" x="108" y="230" text-anchor="middle">CHECK</text>
+  <text class="muted" x="325" y="230" text-anchor="middle">PREPARE</text>
+  <text class="muted" x="542" y="230" text-anchor="middle">EVENT</text>
+  <text class="warn" x="26" y="305">PLANNING AID · NOT A “SAFE UNTIL” DATE</text>
+</g>
+
+<g transform="translate(50 890)">
+  <rect class="panel" width="650" height="330" rx="20"/>
+  <text class="num" x="26" y="39">05</text>
+  <text class="head" x="26" y="82">Review reminder</text>
+  <rect x="27" y="111" width="596" height="169" rx="17" class="ui"/>
+  <path d="M76 151c0-22 14-36 34-36s34 14 34 36v34l15 21H61l15-21z" fill="#ffc86b"/>
+  <circle cx="110" cy="224" r="9" fill="#ffc86b"/>
+  <text class="white" x="191" y="159">Time to recheck</text>
+  <text class="muted" x="191" y="192">Source checked date</text>
+  <rect x="418" y="220" width="172" height="33" rx="17" class="accent"/>
+  <text class="button" x="456" y="242">VERIFY NOW</text>
+  <text class="warn" x="26" y="305">VERIFY CURRENT SOURCE BEFORE ACTING</text>
+</g>
+
+<g transform="translate(740 890)">
+  <rect class="panel" width="650" height="330" rx="20"/>
+  <text class="num" x="26" y="39">06</text>
+  <text class="head" x="26" y="82">Choose the next step</text>
+  <rect x="27" y="112" width="596" height="169" rx="17" class="ui"/>
+  <rect x="51" y="138" width="250" height="48" rx="24" fill="#253a55"/>
+  <text x="176" y="168" text-anchor="middle" fill="#bcd3ff" font-family="Arial" font-size="15">CONTACT MANUFACTURER</text>
+  <rect x="324" y="138" width="250" height="48" rx="24" fill="#2c493f"/>
+  <text x="449" y="168" text-anchor="middle" fill="#aef1df" font-family="Arial" font-size="15">CHECK EVENT RULES</text>
+  <rect x="51" y="208" width="523" height="43" rx="22" class="accent"/>
+  <text class="button" x="313" y="235" text-anchor="middle">OPEN OFFICIAL SOURCE</text>
+  <text class="warn" x="26" y="305">NO AUTOMATIC COMPLIANCE DECISION</text>
+</g>
+
+<text x="720" y="1290" text-anchor="middle" fill="#8fa2ba" font-family="Arial, sans-serif" font-size="17">Plan early. Confirm with the current official source.</text>
+</svg>
