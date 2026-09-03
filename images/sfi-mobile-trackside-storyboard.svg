@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Mobile Trackside Inspector Mode storyboard</title>
+  <desc id="desc">Six panels show a vehicle arriving, choosing a lookup method, scanning a label, viewing a quick reference, opening the official source, and holding uncertain equipment for manual review.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="1" stop-color="#1f2937"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="7" stdDeviation="7" flood-color="#000000" flood-opacity=".25"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="760" rx="28" fill="url(#bg)"/>
+  <path d="M0 95h1200" stroke="#ef4444" stroke-width="7"/>
+  <g opacity=".13" fill="#ffffff">
+    <rect x="930" y="25" width="28" height="28"/><rect x="986" y="25" width="28" height="28"/>
+    <rect x="958" y="53" width="28" height="28"/><rect x="1014" y="53" width="28" height="28"/>
+    <rect x="1042" y="25" width="28" height="28"/><rect x="1098" y="25" width="28" height="28"/>
+    <rect x="1070" y="53" width="28" height="28"/><rect x="1126" y="53" width="28" height="28"/>
+  </g>
+  <text x="55" y="51" fill="#ffffff" font-family="Arial, sans-serif" font-size="29" font-weight="800">MOBILE TRACKSIDE INSPECTOR MODE</text>
+  <text x="55" y="81" fill="#fca5a5" font-family="Arial, sans-serif" font-size="18" font-weight="600">Find the official safety information fast — even in sun, noise, or weak internet.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="45" y="130" width="350" height="260" rx="22" fill="#ffffff"/>
+    <rect x="425" y="130" width="350" height="260" rx="22" fill="#ffffff"/>
+    <rect x="805" y="130" width="350" height="260" rx="22" fill="#ffffff"/>
+    <rect x="45" y="425" width="350" height="260" rx="22" fill="#ffffff"/>
+    <rect x="425" y="425" width="350" height="260" rx="22" fill="#ffffff"/>
+    <rect x="805" y="425" width="350" height="260" rx="22" fill="#ffffff"/>
+  </g>
+
+  <!-- Panel 1 -->
+  <circle cx="78" cy="165" r="20" fill="#ef4444"/><text x="78" y="172" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="20" font-weight="800">1</text>
+  <circle cx="330" cy="175" r="30" fill="#fbbf24"/>
+  <g stroke="#f59e0b" stroke-width="4">
+    <path d="M330 132v-15M330 233v-15M287 175h-15M388 175h-15M300 145l-11-11M371 216l-11-11M360 145l11-11M289 216l11-11"/>
+  </g>
+  <path d="M108 270h44l22-40h92l35 40h36c17 0 28 10 31 27H92c2-16 7-27 16-27z" fill="#ef4444"/>
+  <rect x="186" y="240" width="62" height="30" rx="8" fill="#bfdbfe"/>
+  <circle cx="145" cy="300" r="23" fill="#1f2937"/><circle cx="311" cy="300" r="23" fill="#1f2937"/>
+  <text x="78" y="345" fill="#111827" font-family="Arial" font-size="22" font-weight="800">VEHICLE ARRIVES</text>
+  <text x="78" y="373" fill="#4b5563" font-family="Arial" font-size="16">The inspector needs answers fast.</text>
+
+  <!-- Panel 2 -->
+  <circle cx="458" cy="165" r="20" fill="#ef4444"/><text x="458" y="172" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="20" font-weight="800">2</text>
+  <rect x="545" y="160" width="110" height="145" rx="16" fill="#111827"/>
+  <rect x="555" y="177" width="90" height="108" rx="8" fill="#f9fafb"/>
+  <rect x="566" y="190" width="68" height="22" rx="6" fill="#ef4444"/><text x="600" y="206" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="11" font-weight="700">SCAN</text>
+  <rect x="566" y="222" width="68" height="22" rx="6" fill="#e5e7eb"/><text x="600" y="238" text-anchor="middle" fill="#111827" font-family="Arial" font-size="11" font-weight="700">TYPE</text>
+  <rect x="566" y="254" width="68" height="22" rx="6" fill="#e5e7eb"/><text x="600" y="270" text-anchor="middle" fill="#111827" font-family="Arial" font-size="10" font-weight="700">EQUIPMENT</text>
+  <circle cx="600" cy="295" r="5" fill="#9ca3af"/>
+  <text x="458" y="345" fill="#111827" font-family="Arial" font-size="22" font-weight="800">CHOOSE A LOOKUP</text>
+  <text x="458" y="373" fill="#4b5563" font-family="Arial" font-size="16">Scan, type, or pick equipment.</text>
+
+  <!-- Panel 3 -->
+  <circle cx="838" cy="165" r="20" fill="#ef4444"/><text x="838" y="172" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="20" font-weight="800">3</text>
+  <rect x="900" y="168" width="160" height="118" rx="12" fill="#dbeafe" stroke="#2563eb" stroke-width="4"/>
+  <rect x="922" y="192" width="116" height="70" rx="6" fill="#ffffff" stroke="#93c5fd" stroke-width="2"/>
+  <text x="980" y="217" text-anchor="middle" fill="#111827" font-family="Arial" font-size="12" font-weight="800">SFI 16.1</text>
+  <text x="980" y="238" text-anchor="middle" fill="#4b5563" font-family="Arial" font-size="11">LABEL DATE: 2026</text>
+  <path d="M906 190v-16h16M1054 190v-16h-16M906 264v16h16M1054 264v16h-16" fill="none" stroke="#ef4444" stroke-width="4"/>
+  <text x="838" y="345" fill="#111827" font-family="Arial" font-size="22" font-weight="800">SCAN &amp; CONFIRM</text>
+  <text x="838" y="373" fill="#4b5563" font-family="Arial" font-size="16">Fix anything the camera reads wrong.</text>
+
+  <!-- Panel 4 -->
+  <circle cx="78" cy="460" r="20" fill="#ef4444"/><text x="78" y="467" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="20" font-weight="800">4</text>
+  <rect x="102" y="485" width="235" height="115" rx="14" fill="#ecfdf5" stroke="#059669" stroke-width="3"/>
+  <circle cx="132" cy="518" r="17" fill="#059669"/><path d="M124 518l6 6 11-14" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+  <text x="160" y="515" fill="#065f46" font-family="Arial" font-size="16" font-weight="800">REFERENCE FOUND</text>
+  <text x="122" y="548" fill="#111827" font-family="Arial" font-size="14" font-weight="700">SFI 16.1 • Driver Restraint</text>
+  <text x="122" y="575" fill="#4b5563" font-family="Arial" font-size="12">Source updated today</text>
+  <text x="78" y="640" fill="#111827" font-family="Arial" font-size="22" font-weight="800">QUICK REFERENCE</text>
+  <text x="78" y="668" fill="#4b5563" font-family="Arial" font-size="16">See the key facts and source date.</text>
+
+  <!-- Panel 5 -->
+  <circle cx="458" cy="460" r="20" fill="#ef4444"/><text x="458" y="467" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="20" font-weight="800">5</text>
+  <path d="M555 480h95l35 35v110H555z" fill="#eff6ff" stroke="#2563eb" stroke-width="4"/>
+  <path d="M650 480v35h35" fill="#bfdbfe" stroke="#2563eb" stroke-width="4"/>
+  <path d="M580 545h80M580 567h80M580 589h55" stroke="#60a5fa" stroke-width="7" stroke-linecap="round"/>
+  <text x="458" y="640" fill="#111827" font-family="Arial" font-size="22" font-weight="800">OPEN OFFICIAL SOURCE</text>
+  <text x="458" y="668" fill="#4b5563" font-family="Arial" font-size="16">The rulebook controls the decision.</text>
+
+  <!-- Panel 6 -->
+  <circle cx="838" cy="460" r="20" fill="#ef4444"/><text x="838" y="467" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="20" font-weight="800">6</text>
+  <path d="M975 480l75 130H900z" fill="#fef3c7" stroke="#d97706" stroke-width="4"/>
+  <text x="975" y="566" text-anchor="middle" fill="#92400e" font-family="Arial" font-size="52" font-weight="900">!</text>
+  <rect x="890" y="615" width="170" height="40" rx="10" fill="#ef4444"/>
+  <text x="975" y="641" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="14" font-weight="800">MANUAL REVIEW</text>
+  <text x="838" y="675" fill="#111827" font-family="Arial" font-size="20" font-weight="800">STOP WHEN UNSURE</text>
+  <text x="838" y="705" fill="#4b5563" font-family="Arial" font-size="15">Never guess or claim the item passed.</text>
+
+  <text x="600" y="735" text-anchor="middle" fill="#9ca3af" font-family="Arial" font-size="13">Storyboard concept for Issue #11 • Ideation only</text>
+</svg>
