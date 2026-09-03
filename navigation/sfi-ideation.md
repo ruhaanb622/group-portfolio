@@ -326,7 +326,8 @@ show_reading_time: false
         </ol>
         <h4>Guiding question</h4>
         <p>Which facts can SFI authorize the site to verify, and which claims must the interface avoid?</p>
-        <p><strong>Safety boundary:</strong> Manufacturer participation information must not be described as SFI endorsement or automatic product certification.</p>
+        <p><strong>Safety boundary:</strong> A participation record does not authenticate the scanned item or show that it will pass inspection. The result repeats the matched manufacturer, specification, label date, source, and source-check date.</p>
+        <p><strong>Peer update:</strong> The result now says “Participation record found” instead of the unclear word “Listed.”</p>
         <a class="sfi-link" href="https://github.com/ruhaanb622/group-portfolio/issues/10">Discuss in issue #10 →</a>
       </article>
 
@@ -379,14 +380,15 @@ show_reading_time: false
         <ol>
           <li><strong>Gain attention:</strong> A submission is delayed because a required item is unclear.</li>
           <li><strong>Overview:</strong> Show role, submission stage, and the next required action.</li>
-          <li><strong>Text + visual:</strong> A stepper distinguishes draft, submitted, needs changes, and reviewed states.</li>
+          <li><strong>Text + visual:</strong> A simple status strip shows the submission, version, current step, and next person responsible.</li>
           <li><strong>Audio:</strong> Optional notification reading; no audio required for core use.</li>
-          <li><strong>Interaction:</strong> Upload, validate required fields, respond to comments, and view history.</li>
+          <li><strong>Interaction:</strong> One fake manufacturer uploads sample files and one reviewer requests changes or records a decision.</li>
           <li><strong>Application:</strong> Both parties confirm that the same record and next action are visible.</li>
         </ol>
         <h4>Guiding question</h4>
         <p>What real workflow exists today, and would a student-built prototype address a meaningful bottleneck?</p>
-        <p><strong>Scope risk:</strong> Authentication, private documents, permissions, and retention policies may make this direction too broad.</p>
+        <p><strong>Classroom scope:</strong> Use one fake manufacturer, one reviewer, sample files, and three states: Draft, Changes Needed, and Decision Recorded. Real authentication, private storage, licensing, and retention rules stay outside the prototype.</p>
+        <p><strong>Peer update:</strong> Screens 3–5 now repeat the record, version, status, and next owner. “Finished” was replaced with “Decision Recorded / Review Closed.”</p>
         <a class="sfi-link" href="https://github.com/ruhaanb622/group-portfolio/issues/13">Discuss in issue #13 →</a>
       </article>
 
