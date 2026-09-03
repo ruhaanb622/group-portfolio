@@ -66,6 +66,7 @@
   <text class="muted" x="47" y="230">Why this match?</text>
   <rect x="430" y="225" width="169" height="32" rx="16" class="blue"/>
   <text class="button" x="466" y="246">VIEW SOURCE</text>
+  <text x="26" y="309" fill="#ffbd6c" font-family="Arial, sans-serif" font-size="14" font-weight="700">SEARCH HELP ONLY · VERIFY WITH OFFICIAL SFI SOURCE</text>
 </g>
 
 <g transform="translate(50 890)">
@@ -97,6 +98,7 @@
   <text x="290" y="238" text-anchor="middle" fill="#a9c4ef" font-family="Arial" font-size="14">SPEC #</text>
   <rect x="387" y="213" width="188" height="39" rx="20" fill="#17253a"/>
   <text x="481" y="238" text-anchor="middle" fill="#a9c4ef" font-family="Arial" font-size="14">DIRECTORY</text>
+  <text x="26" y="295" fill="#ffbd6c" font-family="Arial, sans-serif" font-size="14" font-weight="700">SEARCH HELP ONLY · VERIFY WITH OFFICIAL SFI SOURCE</text>
 </g>
 
 <text x="720" y="1290" text-anchor="middle" fill="#8fa2ba" font-family="Arial, sans-serif" font-size="17">Official source first.</text>
