@@ -30,7 +30,7 @@ map directly to Ideas 1–6.**
 - **Board setup issue:** [#3 Create the SFI Kanban and link issues #8–#14](https://github.com/ruhaanb622/group-portfolio/issues/3)
 - **Required Board view:** Exactly **To Do**, **Doing**, and **Done**
 - **Optional Table view:** Team Backlog with sub-issue progress, status, assignees, and priority
-- **Project link:** Add the GitHub Project URL here after the board is created
+- **GitHub Project:** [SFI 2026–2027 Ideation Kanban](https://github.com/users/ruhaanb622/projects/1/views/1)
 - **Pull requests:** [Repository pull requests](https://github.com/ruhaanb622/group-portfolio/pulls)
 
 The Big Issue contains the problem, success, out-of-scope, previous-team
