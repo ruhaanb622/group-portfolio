@@ -38,10 +38,10 @@
  <rect x="90" y="460" width="96" height="88" rx="12" fill="#08101f" stroke="#64748b" stroke-width="3"/>
     <path d="M138 520V480M120 498l18-18 18 18" stroke="#a78bfa" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
     <rect x="106" y="530" width="64" height="8" rx="4" fill="#a78bfa"/>
- <text x="240" y="413" font-size="23" font-weight="700" fill="#f8fafc">Upload proof</text>
- <text x="240" y="448" font-size="16" fill="#cbd5e1" font-weight="400">Add test reports, product</text><text x="240" y="473" font-size="16" fill="#cbd5e1" font-weight="400">details, photos, dates, and</text><text x="240" y="498" font-size="16" fill="#cbd5e1" font-weight="400">required authentication.</text>
+ <text x="240" y="413" font-size="23" font-weight="700" fill="#f8fafc">Upload sample proof</text>
+ <text x="240" y="448" font-size="16" fill="#cbd5e1" font-weight="400">Submission: SUB-204</text><text x="240" y="473" font-size="16" fill="#cbd5e1" font-weight="400">Spec/model: 15.3 / Wheel</text><text x="240" y="498" font-size="16" fill="#cbd5e1" font-weight="400">Version: 1 · Next: Maker</text>
  <rect x="240" y="534" width="169" height="30" rx="15" fill="#a78bfa" opacity=".18"/>
- <text x="257" y="555" font-size="14" font-weight="700" fill="#a78bfa">VERSIONED FILES</text>
+ <text x="257" y="555" font-size="14" font-weight="700" fill="#a78bfa">DRAFT</text>
  </g><g font-family="Arial,Helvetica,sans-serif" filter="url(#shadow)">
  <rect x="615" y="370" width="550" height="210" rx="20" fill="#101c31" stroke="#334155" stroke-width="2"/>
  <rect x="615" y="370" width="8" height="210" rx="4" fill="#a78bfa"/>
@@ -50,10 +50,10 @@
  <rect x="670" y="444" width="80" height="104" rx="10" fill="#08101f" stroke="#64748b" stroke-width="3"/>
     <path d="M686 471h46M686 489h46M686 507h32" stroke="#a78bfa" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
     <circle cx="749" cy="527" r="23" fill="#a78bfa"/><path d="M739 527l7 7 14-17" stroke="#06111f" stroke-width="5" fill="none"/>
- <text x="820" y="413" font-size="23" font-weight="700" fill="#f8fafc">Review and return</text>
- <text x="820" y="448" font-size="16" fill="#cbd5e1" font-weight="400">Reviewer checks completeness,</text><text x="820" y="473" font-size="16" fill="#cbd5e1" font-weight="400">records questions, and returns</text><text x="820" y="498" font-size="16" fill="#cbd5e1" font-weight="400">specific change requests.</text>
+ <text x="820" y="413" font-size="23" font-weight="700" fill="#f8fafc">Changes requested</text>
+ <text x="820" y="448" font-size="16" fill="#cbd5e1" font-weight="400">Submission: SUB-204</text><text x="820" y="473" font-size="16" fill="#cbd5e1" font-weight="400">Version: 2 · Changes needed</text><text x="820" y="498" font-size="16" fill="#cbd5e1" font-weight="400">Next: Manufacturer</text>
  <rect x="820" y="534" width="187" height="30" rx="15" fill="#a78bfa" opacity=".18"/>
- <text x="837" y="555" font-size="14" font-weight="700" fill="#a78bfa">CHANGES REQUESTED</text>
+ <text x="837" y="555" font-size="14" font-weight="700" fill="#a78bfa">OWNER VISIBLE</text>
  </g><g font-family="Arial,Helvetica,sans-serif" filter="url(#shadow)">
  <rect x="35" y="610" width="550" height="210" rx="20" fill="#101c31" stroke="#334155" stroke-width="2"/>
  <rect x="35" y="610" width="8" height="210" rx="4" fill="#a78bfa"/>
@@ -63,10 +63,10 @@
     <circle cx="109" cy="710" r="12" fill="#a78bfa"/><path d="M103 710l5 5 9-11" stroke="#06111f" stroke-width="4" fill="none"/>
     <rect x="130" y="703" width="45" height="10" rx="5" fill="#64748b"/><rect x="96" y="734" width="80" height="9" rx="4" fill="#334155"/>
     <rect x="96" y="752" width="68" height="9" rx="4" fill="#334155"/><rect x="96" y="770" width="52" height="9" rx="4" fill="#a78bfa"/>
- <text x="240" y="653" font-size="23" font-weight="700" fill="#f8fafc">Record the outcome</text>
- <text x="240" y="688" font-size="16" fill="#cbd5e1" font-weight="400">Show the official review state</text><text x="240" y="713" font-size="16" fill="#cbd5e1" font-weight="400">and next licensing step without</text><text x="240" y="738" font-size="16" fill="#cbd5e1" font-weight="400">claiming endorsement.</text>
+ <text x="240" y="653" font-size="23" font-weight="700" fill="#f8fafc">Decision recorded</text>
+ <text x="240" y="688" font-size="16" fill="#cbd5e1" font-weight="400">Submission: SUB-204 · v3</text><text x="240" y="713" font-size="16" fill="#cbd5e1" font-weight="400">Reviewer: SFI · Sep. 3</text><text x="240" y="738" font-size="16" fill="#cbd5e1" font-weight="400">Review closed · Not approval</text>
  <rect x="240" y="774" width="142" height="30" rx="15" fill="#a78bfa" opacity=".18"/>
- <text x="257" y="795" font-size="14" font-weight="700" fill="#a78bfa">DECISION LOG</text>
+ <text x="257" y="795" font-size="14" font-weight="700" fill="#a78bfa">REVIEW CLOSED</text>
  </g><g font-family="Arial,Helvetica,sans-serif" filter="url(#shadow)">
  <rect x="615" y="610" width="550" height="210" rx="20" fill="#101c31" stroke="#334155" stroke-width="2"/>
  <rect x="615" y="610" width="8" height="210" rx="4" fill="#a78bfa"/>
@@ -75,10 +75,10 @@
  <rect x="678" y="726" width="80" height="68" rx="12" fill="#08101f" stroke="#a78bfa" stroke-width="4"/>
     <path d="M696 726V710a22 22 0 0 1 44 0v16" stroke="#a78bfa" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="718" cy="756" r="8" fill="#a78bfa"/>
     <path d="M718 764v14" stroke="#a78bfa" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
- <text x="820" y="653" font-size="23" font-weight="700" fill="#f8fafc">Revalidate securely</text>
- <text x="820" y="688" font-size="16" fill="#cbd5e1" font-weight="400">Schedule resubmission, protect</text><text x="820" y="713" font-size="16" fill="#cbd5e1" font-weight="400">private records, and preserve</text><text x="820" y="738" font-size="16" fill="#cbd5e1" font-weight="400">a limited audit history.</text>
+ <text x="820" y="653" font-size="23" font-weight="700" fill="#f8fafc">Plan the next review</text>
+ <text x="820" y="688" font-size="16" fill="#cbd5e1" font-weight="400">A later version can begin</text><text x="820" y="713" font-size="16" fill="#cbd5e1" font-weight="400">when another review is due.</text><text x="820" y="738" font-size="16" fill="#cbd5e1" font-weight="400">Old versions stay linked.</text>
  <rect x="820" y="774" width="142" height="30" rx="15" fill="#a78bfa" opacity=".18"/>
- <text x="837" y="795" font-size="14" font-weight="700" fill="#a78bfa">REVALIDATION</text>
+ <text x="837" y="795" font-size="14" font-weight="700" fill="#a78bfa">FUTURE STEP</text>
  </g>
 <text x="600" y="872" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#64748b">Concept storyboard for team ideation • Official SFI sources remain controlling</text>
 </svg>
