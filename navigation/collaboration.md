@@ -38,22 +38,6 @@ discussion, comparison, and approval checklists. Each sub-issue has one owner,
 one storyboard deliverable, and a verifiable done condition. Issue #14 contains
 the storyboard test/demo-readiness work.
 
-### First team check-in
-
-| Checkpoint | Record |
-|---|---|
-| **Date** | September 3, 2026 |
-| **Attendees** | Arya Taghavi Zargar, Deyar Raissadat, and Ruhaan Bansal |
-| **Repository** | All three teammates can open the shared repository and contribute through their assigned issues |
-| **Deployment** | [GitHub Pages](https://ruhaanb622.github.io/group-portfolio/) is live, and the recorded Pages workflow completed successfully |
-| **Workflow** | The team uses the [SFI Ideation Kanban](https://github.com/users/ruhaanb622/projects/1/views/1) with **To Do**, **Doing**, and **Done** |
-| **Ownership** | Ruhaan owns [#9](https://github.com/ruhaanb622/group-portfolio/issues/9) and [#12](https://github.com/ruhaanb622/group-portfolio/issues/12), Arya owns [#10](https://github.com/ruhaanb622/group-portfolio/issues/10) and [#13](https://github.com/ruhaanb622/group-portfolio/issues/13), and Deyar owns [#11](https://github.com/ruhaanb622/group-portfolio/issues/11) and [#14](https://github.com/ruhaanb622/group-portfolio/issues/14) |
-| **Blockers** | No blockers were identified during this checkpoint |
-
-The team agreed to keep one owner per active storyboard issue, document feedback in
-the relevant issue thread, and move work through the board without selecting a final
-product direction during ideation.
-
 ### Artifact history
 
 | Phase | Artifact | Evidence link | Status |
