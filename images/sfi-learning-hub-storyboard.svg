@@ -107,6 +107,8 @@
     <rect x="870" y="145" width="370" height="305" rx="22" fill="#fff" stroke="#d5deea" stroke-width="2"/>
     <circle cx="906" cy="181" r="20" fill="#f04444"/><text class="num" x="906" y="189">3</text>
     <rect x="935" y="162" width="85" height="37" rx="19" fill="#ede9fe"/><text class="tag" x="977.5" y="185" text-anchor="middle" fill="#6d28d9">EXPLORE</text>
+    <rect x="1114" y="166" width="96" height="29" rx="14" fill="#faf5ff" stroke="#7c3aed" stroke-width="2" stroke-dasharray="5 3"/>
+    <text x="1162" y="185" text-anchor="middle" font-size="9" font-weight="900" fill="#6d28d9">TAB FOCUS</text>
 
     <g filter="url(#shadow)">
       <rect x="925" y="218" width="260" height="121" rx="14" fill="#eef5ff" stroke="#3b82f6" stroke-width="3"/>
@@ -116,6 +118,7 @@
       <text x="1055" y="305" text-anchor="middle" font-size="12" font-weight="800" fill="#475569">EXPIRES 03 / 2028</text>
     </g>
     <circle cx="949" cy="280" r="11" fill="#f04444"/><text x="949" y="284" text-anchor="middle" font-size="12" font-weight="900" fill="white">1</text>
+    <circle cx="1162" cy="303" r="19" fill="none" stroke="#7c3aed" stroke-width="3" stroke-dasharray="5 3"/>
     <circle cx="1162" cy="303" r="11" fill="#f04444"/><text x="1162" y="307" text-anchor="middle" font-size="12" font-weight="900" fill="white">2</text>
 
     <text class="headline" x="899" y="386">READ THE LABEL</text>
@@ -190,9 +193,8 @@
     <text class="sub" x="899" y="768">Repeat the check on a new item.</text>
   </g>
 
-  <g transform="translate(453 836)">
-    <circle cx="53" cy="12" r="5" fill="#f04444"/><circle cx="99" cy="12" r="5" fill="#f04444"/><circle cx="145" cy="12" r="5" fill="#f04444"/>
-    <circle cx="191" cy="12" r="5" fill="#f04444"/><circle cx="237" cy="12" r="5" fill="#f04444"/><circle cx="283" cy="12" r="5" fill="#f04444"/>
-  </g>
-  <text x="640" y="876" text-anchor="middle" font-size="14" fill="#aebbd0">Storyboard concept for Issue #14 • ideation and peer testing only</text>
+  <rect x="40" y="830" width="1200" height="48" rx="16" fill="url(#orange)"/>
+  <circle cx="341" cy="854" r="13" fill="#fff" opacity=".96"/>
+  <path d="M335 854l4 4 8-10" fill="none" stroke="#f04444" stroke-width="3" stroke-linecap="round"/>
+  <text x="655" y="860" text-anchor="middle" font-size="17" font-weight="900" fill="#fff" letter-spacing=".5">LEARNING ONLY—VERIFY WITH OFFICIAL SOURCES</text>
 </svg>
